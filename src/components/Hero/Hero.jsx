@@ -3,6 +3,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin } from 'lucide-react';
 import MinimalGalaxy from '../MinimalGalaxy/MinimalGalaxy';
+import icon1 from '../../images/icon1.jpg';
+import k2Logo from '../../images/k2 logo.png';
+import icsieLogo from '../../images/icsie.jpg';
 
 const Hero = () => {
   return (
@@ -27,17 +30,17 @@ const Hero = () => {
             className="flex items-center justify-center gap-8 mb-8 mt-12"
           >
             <img 
-              src="/src/images/icon1.jpg" 
+              src={icon1} 
               alt="Conference Icon" 
               className="h-20 w-auto rounded-lg"
             />
             <img
-              src="/src/images/k2 logo.png"
+              src={k2Logo}
               alt="College Logo"
               className="h-20 w-20 rounded-lg shadow-lg"
             />
             <img 
-              src="/src/images/icsie.jpg" 
+              src={icsieLogo} 
               alt="ICSIE Logo" 
               className="h-20 w-26 rounded-lg shadow-lg"
             />

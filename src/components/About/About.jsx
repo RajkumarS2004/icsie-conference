@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Globe } from 'lucide-react';
+import KaheBanner from '../../images/banner-KIT-new.jpg';
 
 const About = () => {
   return (
@@ -58,7 +59,7 @@ const About = () => {
               >
                 <div className="absolute -inset-4 border border-primary/20 -z-10 translate-x-4 translate-y-4 rounded-lg"></div>
                 <img 
-                  src="/src/images/banner-KIT-new.jpg" 
+                  src={KaheBanner} 
                   alt="KAHE Campus" 
                   className="w-full h-auto object-contain rounded-lg shadow-2xl"
                 />

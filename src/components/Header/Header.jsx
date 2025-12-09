@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
+import kLogo from '../../images/k.png';
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -55,7 +57,7 @@ const Header = () => {
         {/* Logo */}
         <a href="#" className="flex items-center space-x-3 group">
           <img 
-            src="/src/images/k.png" 
+            src={kLogo} 
             alt="ICSIE Logo" 
             className="h-20 w-auto rounded-lg"
           />
