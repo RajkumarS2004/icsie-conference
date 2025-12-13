@@ -20,12 +20,10 @@ const Sponsors = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-display text-slate-900">
-              Media <span className="text-gradient">Support</span>
+              Media Support
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto rounded-full mb-6"></div>
-            <p className="text-lg text-slate-600">
-              Collaborating with leading media platforms to bring you the latest verified conference updates.
-            </p>
+           
           </motion.div>
         </div>
 
@@ -62,7 +60,7 @@ const Sponsors = () => {
                   </h3>
                   <div className="flex items-center justify-center gap-2 text-sm text-slate-500">
                      <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                     Official Media Partner
+                     <a href="https://allconferencealert.net/india.php">https://allconferencealert.net/india.php</a>
                   </div>
                 </div>
               </div>

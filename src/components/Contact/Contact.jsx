@@ -59,7 +59,7 @@ const Contact = () => {
                     <a href="tel:+918098378814" className="hover:text-primary transition-colors text-sm">(+91) 8098378814</a>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-white">Mrs. Angel Julie J</span>
+                    <span className="text-white">Mrs. Angeljulie J</span>
                     <a href="tel:+919597136646" className="hover:text-primary transition-colors text-sm">(+91) 9597136646</a>
                 </div>
                 <div className="flex flex-col">
@@ -75,7 +75,7 @@ const Contact = () => {
                     <a href="tel:+919597136646" className="hover:text-primary transition-colors text-sm">(+91) 8754128158</a>
                 </div>
                 <div className="flex flex-col">
-                    <span className="text-white">Mrs. Krishana Sree K </span>
+                    <span className="text-white">Mrs. Krishna Sree K </span>
                     <a href="tel:+919597136646" className="hover:text-primary transition-colors text-sm">(+91) 9042980980</a>
                 </div>
               </div>

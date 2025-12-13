@@ -8,7 +8,7 @@ const Registration = () => {
     { label: "Full Paper Submission", date: "15/02/2026" },
     { label: "Paper Acceptance", date: "22/02/2026" },
     { label: "Last Date for Payment", date: "25/02/2026" },
-    { label: "Conference Date", date: "06/02/2026" }
+    { label: "Conference Date", date: "06/03/2026" }
   ];
 
   const fees = [
